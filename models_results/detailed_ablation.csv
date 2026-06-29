@@ -1,0 +1,4 @@
+Model,Checkpoint,Params_M,Eval_seconds,IoU,mIoU,F1,Precision,Recall,Accuracy,Specificity
+ViT-UNet (2-5-8 + b11, pw=1.5),vit_unet_4skip_seed42_best.pth,33.117,12.21,0.574160,0.685741,0.729481,0.693850,0.768970,0.840821,0.868639
+ViT-UNet (legacy 2-5-8),vit_unet_best.pth,32.895,11.94,0.519877,0.670681,0.684103,0.832979,0.580375,0.850402,0.954946
+ViT-UNet (deep routing 9-10-11),vit_unet_deep_skip_best.pth,32.895,9.14,0.483180,0.639815,0.651546,0.755353,0.572824,0.828993,0.928171

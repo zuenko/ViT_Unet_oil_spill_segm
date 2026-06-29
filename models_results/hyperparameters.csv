@@ -1,0 +1,13 @@
+Parameter,ViT-UNet,U-Net,DeepLabV3+,CBD-Net
+Input Size,224×224,224×224,224×224,224×224
+Batch Size,16,16,16,16
+Learning Rate,1e-4,1e-4,1e-4,2e-4
+Optimizer,AdamW,AdamW,AdamW,AdamW
+Weight Decay,1e-4,1e-4,1e-4,1e-4
+Scheduler,ReduceLROnPlateau,ReduceLROnPlateau,ReduceLROnPlateau,ReduceLROnPlateau
+Loss Function,BCE+Dice,BCE+Dice,BCE+Dice,BCE+Dice+Boundary
+BCE Weight,0.8,0.8,0.8,0.8
+Dice Weight,0.2,0.2,0.2,0.2
+Epochs,50,50,50,50
+Early Stopping,Patience=5,Patience=5,Patience=5,Patience=5
+Pretrained Backbone,ImageNet-21k,None,ImageNet,None

@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local agent / session config
+.claude/
+.gemini/
+
+# Local manuscript files
+paper/
+access-revised.tex
+
+# LaTeX build artifacts (keep .tex source itself)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data and models (large files)
+dataset/
+dataset_orig/
+*.zip
+
+# Model Weights
+*.pth
+*.pkl
+*.h5
+*.ckpt
+*.safetensors
+predicted_masks.zip
+
+# Logs
+*.log
+*.out
+*.err
+*.pid
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results (generated)
+results/
+predictions/
+logs/
+
+# Keep directory structure
+!dataset/.gitkeep
+!models_results/.gitkeep
+!models_results_orig/.gitkeep
+!results/.gitkeep

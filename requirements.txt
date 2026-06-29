@@ -1,0 +1,34 @@
+# Pinned to the versions used to produce the published checkpoints
+# and CSVs. Newer minor versions usually work, but numpy>=2 breaks
+# pretrained timm/smp loaders for some models — keep it under 2.
+
+# Core deep learning
+torch==2.3.0
+torchvision==0.18.0
+
+# Computer vision / augmentation
+opencv-python==4.10.0.84
+Pillow==10.3.0
+albumentations==1.4.10
+
+# Model zoos
+timm==1.0.7
+segmentation-models-pytorch==0.3.4
+transformers==4.42.0
+
+# Profiling
+thop==0.1.1.post2209072238
+
+# Data / numerics
+numpy<2
+pandas==2.2.2
+scikit-learn==1.5.0
+scipy==1.13.1
+
+# Visualization
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# Utilities
+tqdm==4.66.4
+pyyaml==6.0.1

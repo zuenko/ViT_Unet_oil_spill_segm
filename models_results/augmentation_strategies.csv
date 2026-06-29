@@ -1,0 +1,9 @@
+Augmentation,Probability,Parameters,Applied
+Random Horizontal Flip,0.5,p=0.5,Yes
+Random Vertical Flip,0.5,p=0.5,Yes
+Random Rotation 90°,0.5,p=0.5,Yes
+ShiftScaleRotate,0.3,"shift=0.1, scale=0.1, rotate=15°",Yes
+Random Brightness,0.2,limit=0.2,No
+Random Contrast,0.2,limit=0.2,No
+Gaussian Noise,0.1,"var_limit=(10, 50)",No
+Cutout,0.1,"num_holes=8, max_h_size=32",No

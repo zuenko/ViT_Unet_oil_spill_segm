@@ -1,0 +1,10 @@
+Component,Specification
+Encoder,ViT-Small (timm)
+Patch Size,16×16
+Embedding Dim,384
+Depth,12 blocks
+Heads,6
+Skip Connections,"Blocks 2,5,8"
+Decoder Stages,4 (14→28→56→112→224)
+Parameters,32.9M
+FLOPs,~15G

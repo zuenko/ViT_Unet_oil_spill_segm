@@ -1,0 +1,1 @@
+epoch,train_loss,val_loss,mIoU,F1,Precision,Recall,Specificity,Accuracy,lr,sec
