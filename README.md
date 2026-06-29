@@ -3,10 +3,6 @@
 Code and reproducibility artifacts for the IEEE Access paper on SAR oil-spill
 segmentation with a ViT-UNet model.
 
-The historical code id `vit_unet_4skip` is kept for checkpoint/script
-compatibility. Architecturally, the model uses lateral skip features from ViT
-blocks 2, 5, and 8; block 11 is the bottleneck feature passed into the decoder.
-
 ## Setup
 
 ```bash
